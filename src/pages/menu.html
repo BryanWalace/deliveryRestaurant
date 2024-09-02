@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delivery XYZ</title>
+  <link rel="stylesheet" href="/src/style/menu.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <a href="/src/pages/index.html" class="logo"><i class='bx bxs-home'></i>Delivery</a>
+
+    <ul class="navlist">
+      <li><a href="/src/pages/index.html">Home</a></li>
+      <li><a href="/src/pages/menu.html"  class="active">Menu</a></li>
+      <li><a href="#pedido" class="order-div" onclick="order_open()">Pedido</a></li>
+    </ul>
+
+    <div class="nav-icon">
+      <a href="#"><i class='bx bx-cart'></i></a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
+  </header>
+
+  <div class="order" style="display: none;" id="order-open">
+    <h2>Detalhes do Pedido</h2>
+    <p>Nome do Cliente:</p>
+    <p>Endereço de Entrega: </p>
+    <p>Forma de Pagamento:</p>
+    <h3>Status do Pedido</h2>
+    <p>Seu pedido está sendo preparado</p>
+    <h3>Informações do Restaurante e Entregador</h3>
+    <p>Restaurante:</p>
+    <p>Nome do Entregador:</p>
+    <p>Veiculo:</p>
+  </div>
+
+  <section class="menu">
+    <div class="middle-text">
+      <h4>Menu</h4>
+      <h2>Produtos populares</h2>
+    </div>
+
+    <div class="menu-content">
+      <div class="row">
+        <img src="/src/assets/pop1.jpg" alt="">
+        <h3>Delivery MegaCroc</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        <div class="in-text">
+          <div class="price">
+            <h6>R$30,00</h6>
+          </div>
+          <div class="s-btnn">
+            <a href="#">Comprar</a>
+          </div>
+
+          <div class="top-icon">
+            <a href="#"><i class='bx bx-heart'></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <img src="/src/assets/pop1.jpg" alt="">
+        <h3>Delivery MegaCroc</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        <div class="in-text">
+          <div class="price">
+            <h6>R$30,00</h6>
+          </div>
+          <div class="s-btnn">
+            <a href="#">Comprar</a>
+          </div>
+
+          <div class="top-icon">
+            <a href="#"><i class='bx bx-heart'></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <img src="/src/assets/pop1.jpg" alt="">
+        <h3>Delivery MegaCroc</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        <div class="in-text">
+          <div class="price">
+            <h6>R$30,00</h6>
+          </div>
+          <div class="s-btnn">
+            <a href="#">Comprar</a>
+          </div>
+
+          <div class="top-icon">
+            <a href="#"><i class='bx bx-heart'></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <img src="/src/assets/pop1.jpg" alt="">
+        <h3>Delivery MegaCroc</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        <div class="in-text">
+          <div class="price">
+            <h6>R$30,00</h6>
+          </div>
+          <div class="s-btnn">
+            <a href="#">Comprar</a>
+          </div>
+
+          <div class="top-icon">
+            <a href="#"><i class='bx bx-heart'></i></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <a href="#" class="scroll">
+    <i class='bx bx-chevron-up' style='color:#ffffff' ></i>
+  </a>
+  <script src="/src/js/script.js"></script>
+</body>
+
+</html>
